@@ -15,10 +15,11 @@ class App extends Component {
   handleItemClick = (e, { name }) => this.setState({ activeItem: name })
 
   render() {
+    // <Menu.Item as={Link} to="/login" name='login' active={this.state.activeItem === 'login'} onClick={this.handleItemClick} />
     return (
       <div>
       <Menu secondary>
-        <Menu.Item as={Link} to="/login" name='login' active={this.state.activeItem === 'login'} onClick={this.handleItemClick} />
+       
         <Menu.Item as={Link} to="/users"
           name='users'
           active={this.state.activeItem === 'users'}
