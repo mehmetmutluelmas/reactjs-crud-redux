@@ -83,7 +83,7 @@ class NewUsersForm extends Component {
     
     
     const form = (
-      <div style={{padding:'100px',paddingTop:'40px'}}>
+      <div style={{padding:'15px',paddingTop:'15px'}}>
         <Form onSubmit={this.onSubmit} error={!!this.state.errors} loading={this.props.users.fetching || this.props.usersUpdate.fetching ? true : false} >
           <Form.Field>
             <label>Yetkiler</label>

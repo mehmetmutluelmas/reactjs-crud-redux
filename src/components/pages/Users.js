@@ -55,7 +55,7 @@ class Users extends Component {
 
     return (
       
-      <div style={{padding:'100px',paddingTop:'40px'}}>
+      <div style={{padding:'15px',paddingTop:'20px'}}>
         <PulseLoader
           sizeUnit={"px"}
           size={10}
